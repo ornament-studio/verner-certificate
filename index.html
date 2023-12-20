@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новорічні cертифікати</title>
+    <link rel="stylesheet" href="css/certificate.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+    <script type="text/javascript">
+        window.helpcrunchSettings = {
+            organization: 'verner',
+            appId: '0b1eedb9-8e95-4d7d-8107-4cff941e0c4c',
+        };
+    </script>
+    <script type="text/javascript">
+        (function (w, d) { var hS = w.helpcrunchSettings; if (!hS || !hS.organization) { return; } var widgetSrc = 'https://' + hS.organization + '.widget.helpcrunch.com/'; w.HelpCrunch = function () { w.HelpCrunch.q.push(arguments) }; w.HelpCrunch.q = []; function r() { if (d.querySelector('script[src="' + widgetSrc + '"')) { return; } var s = d.createElement('script'); s.async = 1; s.type = 'text/javascript'; s.src = widgetSrc; (d.body || d.head).appendChild(s); } if (d.readyState === 'complete' || hS.loadImmediately) { r(); } else if (w.attachEvent) { w.attachEvent('onload', r) } else { w.addEventListener('load', r, false) } })(window, document)
+    </script>
+    <div class="zoom">
+        <div id="ajax_overlay"></div>
+        <div id="ajax_loading_box"></div>
+        <div id="cart">
+            <div class="cart-popup">
+                <div class="cart-header">
+                    Ваше замовлення:
+                </div>
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <p><span>Мінімум</span></p>
+                        <a href="/" class="cart-delete">
+                            <svg width="43" height="43" viewBox="0 0 43 43" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" style="width: -webkit-fill-available;">
+                                <circle opacity="0.5" cx="21.5" cy="21.5" r="21" stroke="black" />
+                                <rect x="13.0146" y="13.7217" width="1" height="23"
+                                    transform="rotate(-45 13.0146 13.7217)" fill="#808080" />
+                                <rect x="29.2783" y="13.0146" width="1" height="23"
+                                    transform="rotate(45 29.2783 13.0146)" fill="#808080" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="cart-total">
+                    <div class="cart-total--label">
+                        Сума:
+                    </div>
+                    <div class="cart-total--value">
+                        <span class="old-price">3990₴</span>
+                        <span>3591₴</span>
+                    </div>
+                </div>
+                <form action="" method="POST">
+                    <div class="cart-group">
+                        <label class="cart-label">
+                            <input name="usr_name" type="text" class="cart-input" placeholder="Ім'я" required>
+                        </label>
+                    </div>
+                    <div class="cart-group">
+                        <label class="cart-label">
+                            <input name="usr_phone" type="text" class="cart-input cart-input--phone"
+                                placeholder="Номер телефону" required>
+                        </label>
+                    </div>
+                    <div class="cart-group">
+                        <label class="cart-label">
+                            <input name="usr_email" class="cart-input cart-input--email" placeholder="E-mail" required
+                                data-inputmask="'alias': 'email'" inputmode="email">
+                        </label>
+                    </div>
+                    <div class="cart-group cart-group--promo">
+                        <label class="cart-label">
+                            <input name="usr_promocode" type="text" class="cart-input cart-input--promocode"
+                                placeholder="Промокод">
+                        </label>
+                        <button class="cart-promo--check hidden">
+                            Активувати
+                        </button>
+                        <div class="promo-success hidden">
+                            <span class="promo-txt">Знижка 10%</span>
+                            <span class="promo-circle">
+                                <svg width="26" height="23" viewBox="0 0 26 23" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 10.6154L10.8846 19.5L24 2.5" stroke="white" stroke-width="4"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="promo-error hidden">
+                            <span class="promo-txt">Невірний промокод</span>
+                            <span class="promo-circle">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.80762 2.80762L21.1924 21.1924" stroke="white" stroke-width="4"
+                                        stroke-linecap="round" />
+                                    <path d="M2.80762 21.1924L21.1924 2.80761" stroke="white" stroke-width="4"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cart-checkbox">
+                        <label class="label-checkbox">
+                            <input type="checkbox" name="agree_terms" class="hidden cart-checkbox--field" checked>
+                            <span class="checkbox-indicator">
+                                <svg width="11" height="10" viewBox="0 0 11 10" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 4L4.5 7.5L9.5 1" stroke="white" stroke-width="2"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </span>
+                            <p>
+                                Натискаючи на кнопку, ви даєте згоду на обробку персональних даних та погоджуєтесь з <a
+                                    href="https://vernerfit.com/privacy/" target="_blank">політикою конфіденційності</a>
+                            </p>
+                        </label>
+                    </div>
+                    <div class="cart-payment--title">
+                        Спосіб оплати:
+                    </div>
+                    <ul class="cart-payments">
+                        <li class="cart-payment">
+                            <label class="cart-payment--label">
+                                <input type="radio" name="payment" value="wayforpay" checked>
+                                <p class="radio-indicator">
+                                    <img src="https://fitme.vernerfit.com/wp-content/themes/fitme/img/cart/w.png"
+                                        width="155" alt="wayforpay">
+                                </p>
+                                <p class="radio-indicator--info">
+                                    З української картки
+                                </p>
+                            </label>
+                        </li>
+                        <li class="cart-payment">
+                            <label class="cart-payment--label">
+                                <input type="radio" name="payment" value="payoneer">
+                                <p class="radio-indicator">
+                                    <img src="https://fitme.vernerfit.com/wp-content/themes/fitme/img/cart/paypal-logo.png"
+                                        width="175" alt="payoneer">
+                                </p>
+                                <p class="radio-indicator--info">
+                                    З інших карток
+                                </p>
+                            </label>
+                        </li>
+                    </ul>
+                    <input type="hidden" name="tarif_slug" value="">
+                    <input type="hidden" name="promocode" value="">
+                    <div class="cart-submit">
+                        <button type="submit" class="cart-submit--btn">
+                            Оплатити
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <header class="header">
+            <div class="header__container">
+                <div class="header__inner">
+                    <a href="" class="logo">
+                        <img src="img/logo.svg" alt="VERNER">
+                    </a>
+                    <nav class="header__nav nav">
+                        <a href="#bl3" class="nav__link">Матеріали</a>
+                        <a href="#bl10" class="nav__link">FAQ</a>
+                        <a href="#bl6" class="nav__link">Календар марафонів</a>
+                    </nav>
+                    <button class="open-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <section class="main" id="bl1">
+            <img class="main__image desck" src="img/main-pc.png" alt="">
+            <img class="main__image mobile" src="img/main-image-mob.png" alt="">
+            <div class="main__container">
+                <h2 class="main__title"><span class="italic">Новорічні</span> <br> <span>cертифікати</span></h2>
+                <p class="main__subtitle">- твій <span class="gold">квиток для змін</span> <br>у 2024-й рік</p>
+                <a href="#bl7" class="main__btn main__btn_gold">Придбати сертифікат <span> ● </span></a>
+            </div>
+        </section>
+        <section class="about" id="bl2">
+            <img class="about__image desck" src="img/ulia.png" alt="Verner">
+            <img class="about__image mobile" src="img/ulia-mob.png" alt="Verner">
+            <div class="about__container">
+                <h2 class="about__title">
+                    <span class="italic">1 сертифікат</span><br>
+                    <span class="gold">максимальний </span>
+                    <span class="gold"> тариф</span>
+                    будь-якого <span class="right">марафону!</span>
+                </h2>
+                <p class="about__subtitle">Кожен марафон - це унікальна програма, яка <span class="gold">допомогла
+                        понад 30 000 дівчат</span> досягти результату!</p>
+                <blockquote class="about__blockquote">
+                    <p>За 6 років я розробила 3 базові курси для ідеальної фігури. Вони
+                        допоможуть налагодити харчування, збільшити сідниці та мати ідеальну поставу.</p>
+                </blockquote>
+                <a href="#bl7" class="about__btn about__btn_red">Придбати сертифікат <span> ● </span></a>
+
+            </div>
+        </section>
+        <section class="products-list" id="bl3">
+            <div class="products-list__container">
+                <div class="products-list__item product">
+                    <div class="product__top"><img class="product__image" src="img/fixme.png" alt="FIXME screen"></div>
+                    <div class="product__content">
+                        <p class="product__name">продукт 1</p>
+                        <h2 class="product__title">Марафон <br>з постави <span> Fixme </span></h2>
+                        <p class="product__about">Прибере болі в спині та шиї, зменшить сутулість та «холку», прибере
+                            живіт, що випирає, та підтягне сідниці!<br> </p>
+                        <button class="product__more show-description">ПОКАЗАТИ ПРОГРАМУ <span>＋</span></button>
+                        <div class="product__description">
+                            <ul>
+                                <li>Супровід куратором</li>
+                                <li>Комплекс тренувань на 21 день для покращення постави </li>
+                                <li>Масаж від болю у шиї</li>
+                                <li>Розминка на роботі</li>
+                                <li>Вебінар на тему «Чому псується постава? Зв’язок зі стопами та МТД»</li>
+                                <li>Розбір фігури від куратора по фото</li>
+                                <li>Ефір з ортопедом на тему «Як позбавитися болю після сну та під час сидячої роботи?»
+                                </li>
+                                <li>Комплекс із 6 ефективних вправ на розтяжки</li>
+                                <li>Самодіагностика постави: ознаки сутулості, кіфозу, плоскої спини, сколіозу</li>
+                                <li>Тест на мобільність. Тестуємо таз, поперек та грудну клітку</li>
+                                <li>Уроки для зміцнення тазового дна</li>
+                                <li>Комплекс для живота, що випирає</li>
+                                <li>Розслаблення м’язів завдяки МФР</li>
+                                <li>Урок «Як тримати гарну поставу?»</li>
+                                <li>Урок «Як зняти набряки?»</li>
+                                <li>Гімнастика для стоп</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-list__item product">
+                    <div class="product__top"><img class="product__image" src="img/fitme.png" alt="FITME screen"></div>
+                    <div class="product__content">
+                        <p class="product__name">продукт 2</p>
+                        <h2 class="product__title">Марафон <br> схуднення<span> Fitme </span></h2>
+                        <p class="product__about">Дозволить схуднути на 3-8 кг. А ще прибрати «ляшки» та «вушка»,
+                            складки на спині, животик, целюліт — підтягнути усе тіло та зробити рельєф. </p>
+                        <button class="product__more show-description">ПОКАЗАТИ ПРОГРАМУ <span>＋</span></button>
+                        <div class="product__description">
+                            <ul>
+                                <li>Супровід куратором</li>
+                                <li>Індивідуальний розрахунок харчування</li>
+                                <li>План харчування з рецептами на 21 день</li>
+                                <li>Таблиця замін інгредієнтів</li>
+                                <li>Комплекс тренувань на 21 день</li>
+                                <li>Відеоурок «Правильний Вакуум»</li>
+                                <li>Антицелюлітний комплекс</li>
+                                <li>Іменна книга рецептів</li>
+                                <li>Ефір «Секрет плоского живота»</li>
+                                <li>Подкаст “Як зберегти об’єм грудей на дієті?”</li>
+                                <li>6 уроків з розтяжки на усі частини тіла</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="products-list__item product">
+                    <div class="product__top"> <img class="product__image" src="img/hotme.png" alt="HOTME screen"></div>
+                    <div class="product__content">
+                        <p class="product__name">продукт 3</p>
+                        <h2 class="product__title">Марафон прокачки <br>сідниць<span> Hotme </span></h2>
+                        <p class="product__about"><b>Дозволить накачати сідниці вдома та без ваги за 21 день.</b> <br>Я
+                            надам секретну техніку, яка дозволяє відчувати саме попу, а не ноги. Покращить форму сідниць
+                            та
+                            прибере целюліт.</p>
+                        <button class="product__more show-description">ПОКАЗАТИ ПРОГРАМУ <span>＋</span></button>
+                        <div class="product__description">
+                            <ul>
+                                <li>Супровід куратором</li>
+                                <li>Комплекс тренувань на 21 день</li>
+                                <li>Гайд для боротьби з целюлітом</li>
+                                <li>Антицелюлітний комплекс</li>
+                                <li>Рекомендації харчування</li>
+                                <li>Ефір “секрети жіночої сексуальності”</li>
+                                <li>Чат групи</li>
+                                <li>Книга рецептів + таблиця замін</li>
+                                <li>Відеоуроки з розтяжки</li>
+                                <li>Урок: як зробити попу поличкою</li>
+                                <li>Урок: як підкреслити попу знизу</li>
+                                <li>Урок: як прибрати ямки з боків </li>
+                                <li>Ефір "сексуальність у відносинах"</li>
+                                <li>Вебінар "5 технік швидкого зростання сідниць"</li>
+                                <li>Вебінар з інтимних м'язів (МТД)</li>
+                                <li>Вебінар: причини різного розвитку сідниць</li>
+                                <li>Самомасаж попи (МФР)</li>
+                                <li>Ефір "ігри престолів твого оргазму"</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews" id="bl4">
+            <div class="reviews__container">
+                <h2 class="reviews__title">
+                    <span>До/після</span><br>
+                    <span>моїх дівчат</span>
+                </h2>
+            </div>
+            <div class="reviews__slider-block">
+                <div class="reviews__slider">
+                    <div class="slick-slide"><img src="img/reviews/1.jpg" alt="">
+                        <p>Результат HOTME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/2.png" alt="">
+                        <p>Результат FIXME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/3.jpg" alt="">
+                        <p>Результат FITME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/4.jpg" alt="">
+                        <p>Результат HOTME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/5.png" alt="">
+                        <p>Результат FIXME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/6.png" alt="">
+                        <p>Результат FITME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/7.png" alt="">
+                        <p>Результат HOTME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/8.png" alt="">
+                        <p>Результат FIXME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/9.png" alt="">
+                        <p>Результат HOTME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/10.jpg" alt="">
+                        <p>Результат FIXME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/11.jpg" alt="">
+                        <p>Результат HOTME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/12.png" alt="">
+                        <p>Результат FIXME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/13.png" alt="">
+                        <p>Результат FITME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/14.jpg" alt="">
+                        <p>Результат HOTME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/15.png" alt="">
+                        <p>Результат FIXME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/16.jpg" alt="">
+                        <p>Результат FITME за 21 день</p>
+                    </div>
+                    <div class="slick-slide"><img src="img/reviews/17.jpg" alt="">
+                        <p>Результат HOTME за 21 день</p>
+                    </div>
+                </div>
+                <div class="reviews__controller">
+                    <span class="cursive">гортай</span>
+                </div>
+            </div>
+        </section>
+        <section class="buy" id="bl5">
+            <div class="buy__container">
+                <h2 class="buy__title">Придбай <span class=" italic gold">доступ<br></span> до будь-якого марафону <br>
+                    за <span class="italic">старими</span> цінами!</h2>
+                <div class="buy__content">
+                    <div class="buy__left">
+                        <div class="back-blur"></div>
+                        <p>Ви отримаєте сертифікат <br>з індивідуальним номером.</p>
+                    </div>
+                    <div class="buy__middle">
+                        <p> Вводячи його при купівлі будь-якого марафону - <b>отримуєте 100% знижку на курс.</b></p>
+                        <a href="#bl7" class="buy__btn buy__btn_red">Придбати сертифікат <span> ● </span></a>
+                    </div>
+                    <div class="buy__right">
+                        <div class="back-blur"></div>
+                        <p>Або зроби подарунок близькій людині під ялинку ;)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="calendar" id="bl6">
+            <div class="calendar__container">
+                <div class="calendar__inner">
+                    <h2 class="calendar__title">Календар <br>марафонів</h2>
+                    <div class="calendar__slider-block">
+                        <div class="calendar__slider desck">
+                            <div class="calendar__slide">
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Січень</p>
+                                    <p class="calendar__product"><span class="italic fixme">Fіxme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Лютий</p>
+                                    <p class="calendar__product"><span class="italic fixme">Fіxme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Березень</p>
+                                    <p class="calendar__product"><span class="italic hotme">Hotme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Квітень</p>
+                                    <p class="calendar__product"><span class="italic other">Вебінар</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Травень</p>
+                                    <p class="calendar__product"><span class="italic fitme">Fitme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Червень</p>
+                                    <p class="calendar__product"><span class="italic other">Рецепти</span></p>
+                                </div>
+                            </div>
+                            <div class="calendar__slide">
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Липень</p>
+                                    <p class="calendar__product"><span class="italic fixme">Fixme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Серпень</p>
+                                    <p class="calendar__product"><span class="italic hotme">Hotme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Вересень</p>
+                                    <p class="calendar__product"><span class="italic hotme">Hotme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Жовтень</p>
+                                    <p class="calendar__product"><span class="italic other">Вебінар</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Листопад</p>
+                                    <p class="calendar__product"><span class="italic fitme">Fіtme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Грудень</p>
+                                    <p class="calendar__product"><span class="italic other">Рецепти </span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calendar__slider mobile">
+                            <div class="calendar__slide">
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Січень</p>
+                                    <p class="calendar__product"><span class="italic fixme">Fіxme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Лютий</p>
+                                    <p class="calendar__product"><span class="italic fixme">Fіxme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Березень</p>
+                                    <p class="calendar__product"><span class="italic hotme">Hotme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Квітень</p>
+                                    <p class="calendar__product"><span class="italic other">Вебінар</span></p>
+                                </div>
+                            </div>
+                            <div class="calendar__slide">
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Травень</p>
+                                    <p class="calendar__product"><span class="italic fitme">Fitme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Червень</p>
+                                    <p class="calendar__product"><span class="italic other">Рецепти</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Липень</p>
+                                    <p class="calendar__product"><span class="italic fixme">Fixme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Серпень</p>
+                                    <p class="calendar__product"><span class="italic other">Hotme</span></p>
+                                </div>
+                            </div>
+                            <div class="calendar__slide">
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Вересень</p>
+                                    <p class="calendar__product"><span class="italic hotme">Hotme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Жовтень</p>
+                                    <p class="calendar__product"><span class="italic fixme">fixme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Листопад</p>
+                                    <p class="calendar__product"><span class="italic fitme">Fіtme</span></p>
+                                </div>
+                                <div class="calendar__item">
+                                    <p class="calendar__mounth">Грудень</p>
+                                    <p class="calendar__product"><span class="italic other">Рецепти</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calendar__controller">
+                            <span class="cursive">гортай</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rates" id="bl7">
+            <div class="rates__container">
+                <h2 class="rates__title"><span>Купуй 2 або 3 сертифікати та</span><br><span class="gold italic">отримай
+                        знижку!</span></h2>
+                <div class="rates__items">
+                    <div class="rates__item rates__item_left rate">
+                        <div class="rate__body">
+                            <h4 class="rate__name">1 сертифікат за</h4>
+                            <p class="rate__cost">2 790 грн. <span>| </span> 69 €</p>
+                        </div>
+                        <a href="#buy-tarif-3-by-2" class="rate__btn rate__btn_white">Придбати сертифікат <span> ● </span></a>
+                    </div>
+                    <div class="rates__item rates__item_middle rate">
+                        <div class="rate__body">
+                            <h4 class="rate__name">2 сертифікати за</h4>
+                            <p class="rate__cost">4 390 грн.<span>| </span> 109 €</p>
+                            <p class="rate__sale "><span class="gold italic">економія 1 190 грн.</span></p>
+                        </div>
+                        <a href="#buy-tarif-3-by-2" class="rate__btn rate__btn_gold">Придбати сертифікат <span> ● </span></a>
+                    </div>
+                    <div class="rates__item rates__item_right rate">
+                        <div class="rate__body">
+                            <h4 class="rate__name">3 сертифікати за</h4>
+                            <p class="rate__cost">5 990 грн. <span>| </span> 149 €</p>
+                            <p class="rate__sale "><span class="gold italic">економія 2 380 грн.</span></p>
+                        </div>
+                        <a href="#buy-tarif-3-by-2" class="rate__btn rate__btn_gold">Придбати сертифікат <span> ● </span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ticket" id="bl8">
+            <div class="ticket__container">
+                <div class="ticket__inner">
+                    <h2 class="ticket__title">
+                        Золотий <br>Vip-квиток <span class="cursive gold">вау-у</span>
+                    </h2>
+                    <p class="ticket__about">За пред'явлення цього сертифікату ти отримаєш <span
+                            class="gold">безкоштовний
+                            доступ до всіх марафонів, вебінарі, книг та будь-яких інших курсів,</span> які будуть
+                        продаватися у 2024-му році!</p>
+                    <div class="ticket__button-block">
+                        <a href="#bl7" class="ticket__btn ticket__btn_gold">Придбати сертифікат <span> ● </span></a>
+                        <p class="ticket__cost"> 9 990 грн <span>|</span> 249€</p>
+                    </div>
+                    <img class="ticket__image" src="img/Verner.png" alt="Verner">
+                </div>
+            </div>
+        </section>
+        <section class="join" id="bl9">
+            <div class="join__container">
+                <h2 class="join__title"><span>Долучайся <span>до команди</span>
+                    </span> <span>сильних жінок!</span>
+                    <span class="cursive gold">зміни себе<br> </span>
+                </h2>
+                <div class="join__content">
+                    <div class="join__left">
+                        <p>Мої курси пройшло <br>вже <span class="gold">30 тисяч дівчат.</span></p>
+                    </div>
+                    <div class="join__middle">
+                        <p>30 тисяч, які наважились на зміни, узяли життя в свої руки і <span class="gold">досягли
+                                бажаного!</span></p>
+                        <a href="#bl7" class="join__btn join__btn_red">Придбати сертифікат <span> ● </span></a>
+                    </div>
+                    <div class="join__right">
+                        <p>Чекаю тебе в команді, долучайся і зроби свій 2024-й роком змін! ;)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq" id="bl10">
+            <div class="faq__container">
+                <h2 class="faq__title">FAQ</h2>
+                <div class="faq__items">
+                    <div class="faq__item ">
+                        <div class="faq__header">
+                            <p class="faq__question">Як сплатити, якщо в мене іноземна банківська картка? </p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Для оплати іноземною карткою додай матеріал в кошик та обери спосіб оплати PayPal. Тобі
+                                відкриються подальші інструкції. Після оплати через PayPal протягом 24 годин ти отримаєш
+                                доступ.</p>
+                        </div>
+                    </div>
+                    <div class="faq__item ">
+                        <div class="faq__header">
+                            <p class="faq__question">Що робити, якщо оплата не проходить?</p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p> Можливо, сайт перевантажений. Перезавантаж сторінку і спробуй ще раз.<br>
+                                1. Переконайся, що на твоїй карті достатньо коштів і немає ліміту на оплати в
+                                інтернеті.<br>
+                                2. Переконайся, що термін дії картки не вичерпано.<br>
+                                3. Якщо сплачуєш іноземною карткою - обирай в кошику спосіб оплати PayPal.<br>
+                                <br>
+                                Якщо оплата все ж таки не проходить, напиши нам <a target="_blank"
+                                    href="https://t.me/verner_help_bot"> у підтримку</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq__item ">
+                        <div class="faq__header">
+                            <p class="faq__question">Де я отримаю сертифікат?</p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Після оплати перевір пошту (не забудь про папки спам та промоакції), ми надішлемо
+                                сертифікати в листі. </p>
+                        </div>
+                    </div>
+                    <div class="faq__item ">
+                        <div class="faq__header">
+                            <p class="faq__question">Протягом якого часу діють сертифікати? </p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p> Сертифікати діють протягом 2024 року на будь-який марафон, тариф Максимум. </p>
+                        </div>
+                    </div>
+                    <div class="faq__item ">
+                        <div class="faq__header">
+                            <p class="faq__question">Як я зможу застосувати сертифікат? </p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p> Ти отримаєш сертифікат з індивідуальним номером. Введи його при купівлі будь-якого
+                                марафону та отримай 100% знижку на курс. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq__support">
+                    <p>Пиши в підтримку, якщо залишились питання</p>
+                    <a target="_blank" href="https://t.me/verner_help_bot"><img src="img/support.svg" alt="support"></a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+                <img class="footer__logo" src="img/logo.svg" alt="VERNER">
+                <div class="footer__social social">
+                    <p>Контакти підтримки</p>
+                    <a class="social__insta" target="_blank" href="https://www.instagram.com/verner.cooperation/"></a>
+                    <a class="social__telegram" target="_blank" href="https://t.me/verner_help_bot"></a>
+                </div>
+                <nav class="footer__nav nav">
+                    <a href="#bl3" class="nav__link">Матеріали</a>
+                    <a href="#bl10" class="nav__link">FAQ</a>
+                    <a href="#bl6" class="nav__link">Календар марафонів</a>
+                </nav>
+                <div class="footer__other">
+                    <div>
+                        <a target="_blank" href="https://hotme.vernerfit.com/public/">Публічний договір про послуги</a>
+                        <a target="_blank" href="https://hotme.vernerfit.com/privacy/">Політика конфінденційності</a>
+                    </div>
+                    <div>
+                        <img src="img/visa.svg" alt="Visa">
+                        <img src="img/mastercart.svg" alt="MasterCart">
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/certificate.js"></script>
+    <script type="text/javascript">
+        function getCartInfo(tarif_slug) {
+            $.ajax({
+                url: '<?php echo admin_url( "admin-ajax.php" ) ?>',
+                type: 'POST',
+                data: 'action=new_order&promocode=' + $("#cart input[name='promocode']").val() + '&payment_type=' + $("#cart input[name='payment']:checked").val() + '&tarif_info=' + tarif_slug,
+                dataType: 'json',
+                beforeSend: function (xhr) {
+                    startLoader();
+                },
+                success: function (data) {
+                    $("#cart input[name='tarif_slug']").val(tarif_slug);
+                    $("#cart form").attr('action', data.tarif_url);
+                    $("#cart .cart-item span").text(data.title);
+                    $('#cart .promo-success .promo-txt').text(data.promocode_info);
+                    if (data.old_price == data.price) {
+                        $("#cart .cart-total--value").html("<span>" + data.price + "</span>");
+                    } else {
+                        $("#cart .cart-total--value").html("<span class='old-price'>" + data.old_price + "</span><span>" + data.price + "</span>");
+                    }
+                    finishLoader();
+                    showCart();
+                    console.log(data);
+                }
+            });
+        }
+        $("a.product__btn[href*='buy-tarif'], a.rate__btn[href*='buy-tarif']").click(function () {
+            getCartInfo($(this).attr('href'));
+            return false;
+        });
+        $("#cart form").submit(function () {
+            //console.log($('input[name="agree_terms"]').is(':checked'));
+            if (!$(this).find('input[name="agree_terms"]').is(':checked')) {
+                alert('<?php echo __("Для продовження, ви повинні надати згоду на обробку персональних даних та погодитись з політикою конфіденційності", "fitme"); ?>');
+                return false;
+            }
+
+        });
+        $("button.cart-promo--check").click(function () {
+
+            $.ajax({
+                url: '<?php echo admin_url( "admin-ajax.php" ) ?>',
+                type: 'POST',
+                data: 'action=check_promocode&tarif_slug=' + $("#cart input[name='tarif_slug']").val() + '&promocode=' + $("#cart input[name='usr_promocode']").val() + '&payment_type=' + $("#cart input[name='payment']:checked").val(),
+                dataType: 'json',
+                beforeSend: function (xhr) {
+                    startLoader();
+                },
+                success: function (data) {
+                    if (data.promocode_correct) {
+                        $("button.cart-promo--check").remove();
+                        $('#cart .promo-success .promo-txt').text(data.promocode_info);
+                        $('#cart .promo-success').removeClass('hidden');
+                        $('#cart .promo-error').addClass('hidden');
+                        $("#cart input[name='promocode']").val($("#cart input[name='usr_promocode']").val());
+                        $("#cart input[name='usr_promocode']").prop('readonly', true);
+                        getCartInfo($("#cart input[name='tarif_slug']").val());
+                        $("#cart .cart-popup").scrollTop(0);
+                    } else {
+                        $('#cart .promo-error').removeClass('hidden');
+                        $('#cart .promo-success').addClass('hidden');
+                    }
+                    finishLoader();
+                    console.log(data);
+                }
+            });
+            return false;
+        });
+        $("#cart .cart-payments input[name='payment']").change(function () {
+            $("#cart .cart-popup").scrollTop(0)
+            getCartInfo($("#cart input[name='tarif_slug']").val());
+            return false;
+        });
+        $("a.header--cart").click(function () {
+            //showCart();
+            return false;
+        });
+        $("a.cart-delete").click(function () {
+            hideCart();
+            return false;
+        });
+        function showCart() {
+            $('#cart').addClass('show_modal');
+        }
+        function hideCart() {
+            $('#cart').removeClass('show_modal');
+        }
+        $('.cart-input--promocode').on('change input', function () {
+            if ($(this).val().length > 0) {
+                $('.cart-group--promo').removeClass('error').addClass('active');
+            } else {
+                $('.cart-group--promo').removeClass('error').removeClass('active');
+            }
+        });
+        function startLoader() {
+            $('#ajax_loading_box, #ajax_overlay').css('display', 'block');
+        }
+        function finishLoader() {
+            $('#ajax_loading_box, #ajax_overlay').css('display', 'none');
+        }
+        function promoError() {
+            $('.cart-group--promo').removeClass('active').removeClass('success').addClass('error');
+        }
+        function promoSuccess() {
+            $('.cart-group--promo').removeClass('active').removeClass('error').addClass('success');
+        }
+    </script>
+</body>
+
+</html>
